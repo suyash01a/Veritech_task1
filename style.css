@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 220px;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: 5px 5px rgb(107, 107, 107);
+    /* margin: 10px; */
+}
+
+.ribbon {
+    height: 40px;
+    width: 100px;
+    border-radius: 0px;
+    box-shadow: none;
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%;
+    /* background-color: brown; */
+    margin-inline: auto;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 20px;
+    /* background-color: RED; */
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.hr{
+    color: blue;
+    size: 100px;
+    border: 2px dashed rgb(211, 29, 196);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.coloumn {
+    flex-direction: column;
+}
+
+h1 {
+    background-color: rgb(197, 26, 188);
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 30px;
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 30px;
+    height: 60px;
+    width: 600px;
+    
+}
+
+h2 {
+    /* background-color: darkorchid; */
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 20px;
+
+}
+.dteam{
+    display: block;
+}
+
+h3 {
+
+    padding: 5px 5px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgb(206, 35, 186);
+}
+
+h4{
+    margin: 10px;
+}
+h5 {
+    margin: 10px;
+    color: rgb(197, 33, 197);
+}
+
+.one {
+    justify-content: space-around;
+    margin-block: 50px;
+    /* background-color: aquamarine; */
+}
+.start>img{
+    margin-left: 0px;
+    width: 100px;
+}
+.start>h3{
+   margin-left:40%;
+}
+.rotate{
+transform: rotate();
+}
+
